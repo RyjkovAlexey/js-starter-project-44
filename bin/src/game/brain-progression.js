@@ -31,6 +31,7 @@ const calculateMissingNumber = (progression) => {
 }
 
 export const brainProgressionGame = (name) => {
+    console.log('What number is missing in the progression?')
     let correctAnswers = 0;
     let isGameOver = false;
 
