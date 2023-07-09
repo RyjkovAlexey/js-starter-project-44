@@ -19,6 +19,7 @@ const calculateExpression = (number1, number2, operator) => {
 }
 
 export const brainCalcGame = (name, roudCount) => {
+    console.log('What is the result of the expression')
     let correctAnswers = 0
     while (correctAnswers < roudCount) {
         const number1 = generateRandomNumber(1, 100)
