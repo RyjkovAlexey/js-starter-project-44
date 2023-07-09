@@ -1,5 +1,5 @@
 import readlineSync from "readline-sync"
-import { generateRandomNumber } from "../index.js";
+import { generateRandomNumber } from "../../index.js";
 
 const calculateGCD = (num1, num2) => {
   if (num2 === 0) {

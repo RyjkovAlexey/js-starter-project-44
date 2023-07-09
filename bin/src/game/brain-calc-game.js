@@ -1,5 +1,5 @@
 import readlineSync from "readline-sync"
-import { generateRandomNumber } from "../index.js"
+import { generateRandomNumber } from "../../index.js"
 
 const generateRandomOperator = () => {
     const operators = ['+', '-', '*']
