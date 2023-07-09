@@ -17,3 +17,4 @@ export const initGame = () => {
     console.log("What is the result of the expression?")
     return name
 }
+export const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
