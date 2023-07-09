@@ -14,7 +14,6 @@ export const initGame = () => {
     sayWelcome()
     const name = askName()
     sayHello(name)
-    console.log("What is the result of the expression?")
     return name
 }
 export const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
