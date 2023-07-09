@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 import { initGame, ROUND_COUNT } from './index.js'
-import { brainEvenGame } from './game/brain-even-game.js'
+import { brainCalcGame } from './game/brain-calc-game.js'
 
 const playGame = () => {
-  brainEvenGame(initGame(), ROUND_COUNT)
+    brainCalcGame(initGame(), ROUND_COUNT)
 }
 
 playGame()
