@@ -15,6 +15,7 @@ const generateQuestion = () => {
 }
 
 export const brainGcd = (name) => {
+  console.log('Find the greatest common divisor of given numbers.')
   let correctAnswers = 0;
   let isGameOver = false;
 
